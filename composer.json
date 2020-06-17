@@ -1,0 +1,23 @@
+{
+    "name": "aberkow/wpgraphql-extension-sdk",
+    "description": "A framework for creating extensions to the wp-graphql plugin",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Berkowitz",
+            "email": "adam@adamjberkowitz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {},
+    "config": {
+        "secure-http": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "WPGraphQLSDK\\": "src/"
+        }
+    }
+}
